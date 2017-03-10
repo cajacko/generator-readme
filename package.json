@@ -1,0 +1,51 @@
+{
+  "name": "generator-readme",
+  "version": "0.0.1",
+  "description": "Yeoman generator for creating and ammending readme files",
+  "author": {
+    "name": "Charlie Jackson",
+    "email": "contact@charliejackson.com",
+    "url": "https://charliejackson.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cajacko/generator-readme.git"
+  },
+  "homepage": "https://github.com/cajacko/generator-readme#readme",
+  "scripts": {
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "publish": "npm publish",
+    "lint": "eslint **/*.js",
+    "eslint": "eslint"
+  },
+  "engine": {
+    "node": ">=6.9.1"
+  },
+  "bugs": {
+    "email": "contact@charliejackson.com",
+    "url": "https://github.com/cajacko/generator-readme/issues"
+  },
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "check-out-of-date-packages": "1.1.2",
+    "npm-check": "5.4.0",
+    "yeoman-generator": "1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "eslint": "3.17.1",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0"
+  }
+}
