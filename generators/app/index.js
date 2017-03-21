@@ -24,7 +24,11 @@ module.exports = class extends Generator {
         const replace = `^${start}[\\s\\S]*^${end}`;
         const re = new RegExp(replace, 'm');
 
-        readme = file.replace(re, partial);
+        if (re.test(file)) {
+          readme = file.replace(re, partial);
+        } else {
+          readme = file.concat(`\n${partial}`);
+        }
       } else {
         readme = partial;
       }
