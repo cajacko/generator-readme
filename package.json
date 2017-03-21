@@ -1,6 +1,6 @@
 {
   "name": "generator-readme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Yeoman generator for creating and ammending readme files",
   "author": {
     "name": "Charlie Jackson",
